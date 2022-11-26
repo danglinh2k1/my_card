@@ -1,1 +1,1 @@
-# yêu mợi người!
+# yêu mọi người!
