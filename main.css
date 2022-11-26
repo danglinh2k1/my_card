@@ -367,9 +367,9 @@ button a{
 
 @keyframes bounce {
   from {
-    transform: translateX(-15%);
+    transform: translateX(0%);
   }
   to {
-    transform: translateX(20%);
+    transform: translateX(10%);
   }
 }
