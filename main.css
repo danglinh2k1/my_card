@@ -328,5 +328,48 @@ button a{
 }
 
 .social-icons i:hover {
-  scale: 200% 200%;
+  scale: 180% 180%;
+}
+
+
+
+
+:root {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.button__item {
+
+  border-radius: 50%;
+  height: 60px;
+  aspect-ratio: 1 / 1;
+  /*
+    animations declared later in the cascade will override the
+    properties of previously declared animations
+  */
+  animation:
+    3s linear 0s infinite alternate rise,
+    /* bounce 'overwrites' the transform set by rise */
+    3s linear 0s infinite alternate bounce;
+    /* hence the sun only moves horizontally */
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(70px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(-15%);
+  }
+  to {
+    transform: translateX(20%);
+  }
 }
