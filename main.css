@@ -9,12 +9,15 @@
   box-sizing: border-box;
   font-family: cursive;
 }
+
+
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: #ecf0f3;
+
  
 }
 .wrapper,
@@ -250,7 +253,7 @@ button a{
 }
 
 .social-icons a.tiktok i{
-  color: #1690c9;
+  color: #12c2e9; 
 }
 .social-icons a.insta i{
   color: #E1306C;
@@ -329,6 +332,9 @@ button a{
 
 .social-icons i:hover {
   scale: 180% 180%;
+<<<<<<< HEAD
+}
+=======
 }
 
 
@@ -373,3 +379,4 @@ button a{
     transform: translateX(10%);
   }
 }
+>>>>>>> 08a2936c554b724c88496b0bc8190eec90dbf092
